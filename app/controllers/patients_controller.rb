@@ -5,5 +5,7 @@ class PatientsController < ApplicationController
   end
   
   def show
+    @patient = Patient.find
+  end
   
 end
