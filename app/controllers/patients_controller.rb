@@ -4,4 +4,6 @@ class PatientsController < ApplicationController
     @patients = Patient.all
   end
   
+  def show
+  
 end
